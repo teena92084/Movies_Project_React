@@ -7,7 +7,7 @@ const Action=()=>{
 				</div>
 				<div className="Rating"></div>
 				<div className="Dislike">
-					<img src="Icon -Dis Like .svg" width="100%px" height="100%" style={{}}/>
+					<img src="Icon - disike .svg" width="100%px" height="100%" style={{}}/>
 				</div>
 				
 			</div>
