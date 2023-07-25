@@ -1,9 +1,11 @@
+
+
 "use client";
 import React, { useState } from 'react';
 import Row from "./movie_row.js";
 import "./globals.css";
 import Header from "./header.js";
-import Add_Movie from "./Add_movie.js";
+import  Form from "./form.js" ;
 
 const App = () => {
 
@@ -19,6 +21,10 @@ const App = () => {
         people.sort((a, b) => b.rating - a.rating);
         setPeopleList([...people])
     }
+    const addMovie = (data) => {
+        people.push(data)
+        setPeopleList([...people])
+    }
     return (
         <>
             <Header />
@@ -26,13 +32,15 @@ const App = () => {
                 <Row key={data.id} data={data} imge={data.imge} sortMovie={sortMovie} deleteMovie={deleteMovie.bind(null, index)} />
 
             ))}
-            <Add_Movie/>
+            <Form addMovie={addMovie}/>
+
         </>
     );
 };
 
 
 const people = [{
+    id:1,
     rating: 0,
     name: "Dear Zindagi",
     year: "2016 • 2h 31m",
@@ -40,7 +48,7 @@ const people = [{
     Description: "Kaira is a budding cinematographer in search of a perfect life. Her encounter with Jug, an unconventional thinker,            helps her gain a new perspective on life. She discovers that happiness is all about finding comfort in life's imperfections",
     imge: "image 1.jpg"
 },
-{
+{   id:2,
     rating: 0,
     name: "Brave",
     year: "2012",
@@ -116,9 +124,6 @@ const people = [{
 
 
 export default App;
-
-
-
 
 
 

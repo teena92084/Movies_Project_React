@@ -224,9 +224,9 @@ body{
 .box_form{
 	border: solid 1px blue;
 	width: 960px;
-	height: 1247px;
-	margin-left:160px;
-	margin-top:20px;
+	height: 800px;
+	margin-left:146px;
+	margin-top:50px;
 }
 
 .Del{
@@ -246,32 +246,30 @@ body{
 	border: solid 1px blue;
 	width: 156px;
 	height: 32px;
-	margin-left:145px;
-	margin-top:92px;
 	color:white;
-	font-size:18px
+	font-size:15px
 }
 
 .Add_2{
-	border: solid 1px blue;
-	width: 100%;
-	height: 30px;
-	float:right;
-	color:white;
-	font-size:15px;
+	order: solid 1px blue;
+    width: 949px;
+    height: 30px;
+    float: right;
+    color: white;
+    font-size: 15px;
 }
 
 .Add_col3{
 	border: solid 1px blue;
-	width: 50%;
+	width: 600px;
 	height: 30px;
-	margin-left:145px;
+	
 	
 }
 
 
 
-.new_movie{
+/* .new_movie{
 	border: solid 1px blue;
     width: 197px;
     height: 52px;
@@ -279,11 +277,11 @@ body{
     margin-top: 64px;
     background-color:#F85146;
 	
-}
+} */
 
 
 
-.plus{
+/* .plus{
 	border: solid 1px blue;
     width: 40px;
     height: 40px;
@@ -294,11 +292,11 @@ body{
     color: white;
 
 
-}
+} */
 
 
 
-.new{
+/* .new{
 	border: solid 1px blue;
     width: 96px;
     height: 25px;
@@ -308,7 +306,7 @@ body{
     margin: 13px 30px 8px 16px;
     color: white;
 
-}
+} */
 
 
 
@@ -318,6 +316,14 @@ body{
     height: 162px;   
 }
 
+
+.box_form{
+    border: solid 1px blue;
+    width: 948px;
+    height: 288px;
+    margin-bottom: 1px;
+
+}
 
 .navgurukul{
 	border: solid 1px blue;
@@ -336,6 +342,12 @@ body{
 }
 
 
+.heading{
+    border: solid 1px blue;
+    height: 80px;
+    width: 100%;
+}
+
 
 .navgurukul2{
 	border: solid 1px blue;
@@ -346,5 +358,42 @@ body{
     margin: 95px 0px 0px 0px;
     font-size: 20px;
     line-height: 33px;
+}
+
+
+
+
+.name{
+	border: solid 1px blue;
+    width: 200px;
+    height: 34px;
+    
+}
+
+
+
+
+
+.year{
+	border: solid 1px blue;
+    width: 200px;
+    height: 34px;
+    
+   
+}
+
+.director{
+	border: solid 1px blue;
+    width: 300px;
+    height: 34px;
+    
+}
+
+
+
+.submit{
+    border: solid 1px blue;
+    width: 300px;
+    height: 34px;
 }
 

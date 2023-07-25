@@ -1,12 +1,10 @@
+import  Form from "./form.js" ;
 const Add_Movie=()=>{
 	return(
 		<>
 			<div className="Add"></div>
-			<div className="Add_1">Add a New Movie</div>
-			<div className="Add_2">
-				<div className="Add_col3">To add a movie you have to fill a form. The added movie will appear in the list above</div>
-			</div>
-			<div className="Add_2"></div>
+			
+				<Form/>
 			<div className="new_movie">
 				<div className="new">New Movie</div>
 				<div className="plus">+</div>
@@ -20,7 +18,6 @@ const Add_Movie=()=>{
 		</>
 	);
 }
-
 
 export default Add_Movie;
 
