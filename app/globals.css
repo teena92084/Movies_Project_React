@@ -268,48 +268,6 @@ body{
 }
 
 
-
-/* .new_movie{
-	border: solid 1px blue;
-    width: 197px;
-    height: 52px;
-    margin-left: 145px;
-    margin-top: 64px;
-    background-color:#F85146;
-	
-} */
-
-
-
-/* .plus{
-	border: solid 1px blue;
-    width: 40px;
-    height: 40px;
-    float: left;
-    margin: 6px 2px 5px 0px;
-    font-size: 41px;
-    line-height: 93%;
-    color: white;
-
-
-} */
-
-
-
-/* .new{
-	border: solid 1px blue;
-    width: 96px;
-    height: 25px;
-    float: left;
-    font-size: 18px;
-    line-height: 100%;
-    margin: 13px 30px 8px 16px;
-    color: white;
-
-} */
-
-
-
 .Add_3{
 	border: solid 1px blue;
     width: 100%;
@@ -320,7 +278,7 @@ body{
 .box_form{
     border: solid 1px blue;
     width: 948px;
-    height: 288px;
+    height: 680px;
     margin-bottom: 1px;
 
 }
@@ -382,12 +340,20 @@ body{
    
 }
 
-.director{
+.genre{
 	border: solid 1px blue;
-    width: 300px;
+    width: 200px;
     height: 34px;
-    
+   
 }
+
+.description{
+	border: solid 1px blue;
+    width: 200px;
+    height: 34px;
+   
+}
+
 
 
 
@@ -396,4 +362,19 @@ body{
     width: 300px;
     height: 34px;
 }
+
+
+
+
+.N{
+	/* border: solid 1px blue; */
+    width: 200px;
+    height: 34px;
+    margin-top: 15px;
+    color: white;
+   
+}
+
+
+
 

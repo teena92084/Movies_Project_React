@@ -1,10 +1,10 @@
-import  Form from "./form.js" ;
+// import  Form from "./form.js" ;
 const Add_Movie=()=>{
 	return(
 		<>
 			<div className="Add"></div>
 			
-				<Form/>
+				{/* <Form/> */}
 			<div className="new_movie">
 				<div className="new">New Movie</div>
 				<div className="plus">+</div>
